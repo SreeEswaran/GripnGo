@@ -6,12 +6,13 @@ function App() {
   return (
     <div className="app">
       <div className="app-component">
-        <h1>Sample Game</h1>
+        <h1>GripnGo</h1>
         <div className="image">
-          <img src={image} alt="" />
+          <img src={image} alt=""/>
         </div>
         <div className="app-desc">
-          <p>About the Game Description.. </p>
+          <p>In this game,the player controls a vehicle, such as a car,<br></br>
+          and their mission is to complete the level, overcoming obstacles and maintaining balance. </p>
         </div>
         <div className="app-guide">
           <p>To witness the full visual impact, click the download button</p>
@@ -29,5 +30,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
